@@ -1,0 +1,149 @@
+{
+  [
+    {
+      "name": "Kafka",
+      "type": "official",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Apache_kafka.svg/74px-Apache_kafka.svg.png",
+      "apps": [
+        {
+          "packageName": "gripo",
+          "packageURL": "https://github.com/gripo-io/helm-charts/tree/main/charts",
+          "chartName": "test-kafka",
+          "type": "official",
+          "categories": [
+            "standard"
+          ]
+        },
+        {
+          "packageName": "gripo",
+          "packageURL": "https://github.com/gripo-io/helm-charts/tree/main/charts",
+          "chartName": "kafka-connect",
+          "type": "official",
+          "categories": [
+            "standard"
+          ]
+        },
+        {
+          "packageName": "akhq",
+          "packageURL": "https://akhq.io/",
+          "chartName": "akhq",
+          "type": "official",
+          "categories": [
+            "Monitoring"
+          ]
+        },
+        {
+          "packageName": "strimzi-kafka-operator",
+          "packageURL": "https://github.com/strimzi/strimzi-kafka-operator",
+          "chartName": "strimzi-kafka-operator",
+          "type": "official",
+          "categories": [
+            "Operator"
+          ]
+        }
+      ],
+      "categories": [
+        "Bigdata"
+      ]
+    },
+    {
+      "name": "Opensearch",
+      "type": "official",
+      "icon": "https://opensearch.org/assets/brand/SVG/Logo/opensearch_logo_default.svg",
+      "apps": [
+        {
+          "packageName": "OpenSearch-k8s-operator",
+          "packageURL": "https://opster.github.io/opensearch-k8s-operator/",
+          "chartName": "opensearch-operator",
+          "type": "official",
+          "categories": [
+            "Operator"
+          ]
+        },
+        {
+          "packageName": "omc",
+          "packageURL": "https://opster.github.io/omc-helm/",
+          "chartName": "omc",
+          "type": "official",
+          "categories": [
+            "Mangement"
+          ]
+        }
+      ],
+      "categories": [
+        "Bigdata"
+      ]
+    },
+    {
+      "name": "Promethous",
+      "type": "official",
+      "icon": "https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png",
+      "apps": [
+        {
+          "packageName": "prometheus",
+          "packageURL": "https://prometheus-community.github.io/helm-charts",
+          "chartName": "prometheus",
+          "type": "official",
+          "categories": [
+            "Monitoring"
+          ]
+        },
+        {
+          "packageName": "prometheus",
+          "packageURL": "https://prometheus-community.github.io/helm-charts",
+          "chartName": "prometheus-community/alertmanager",
+          "type": "official",
+          "categories": [
+            "Monitoring"
+          ]
+        },
+        {
+          "packageName": "prometheus",
+          "packageURL": "https://prometheus-community.github.io/helm-charts",
+          "chartName": "prometheus-community/prometheus-kafka-exporter",
+          "type": "official",
+          "categories": [
+            "Monitoring"
+          ]
+        }
+      ],
+      "categories": [
+        "Monitoring"
+      ]
+    },
+    {
+      "name": "Grafana",
+      "type": "official",
+      "icon": "https://bitnami.com/assets/stacks/grafana/img/grafana-stack-220x234.png",
+      "apps": [
+        {
+          "packageName": "Bitnami",
+          "packageURL": "https://charts.bitnami.com/bitnami",
+          "chartName": "grafana-operator",
+          "type": "official",
+          "categories": [
+            "Monitoring"
+          ]
+        },
+        {
+          "packageName": "prometheus",
+          "packageURL": "https://charts.bitnami.com/bitnami",
+          "chartName": "grafana",
+          "type": "official",
+          "categories": [
+            "Monitoring"
+          ]
+        }
+      ],
+      "categories": [
+        "Monitoring"
+      ]
+    }
+  ],
+
+}
+
+
+
+
+
